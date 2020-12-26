@@ -1,0 +1,51 @@
+.form {
+    margin:auto;
+    width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.form fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 250, 216);
+    margin-bottom: 15px;
+}
+.form fieldset > * {
+margin-bottom: 10px;
+}
+
+.form fieldset legend {
+    background-color: rgb(255, 202, 175);
+    font-size: larger;
+}
+
+fieldset.button-container{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#rating-input {
+    width: 200px;
+}
+
+#date-input {
+    width: fit-content;
+}
+
+.button {
+    border-style: none;
+    margin-right: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.button.small-btn{
+padding: 5px 15px;
+background-color: rgb(255, 202, 175);
+}
+
+.button.big-btn{
+  padding: 20px 10px;
+  background-color: rgb(198, 214, 146);  
+}
