@@ -1,51 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(236, 240, 219);
+}
+.page-title {
+  color: rgb(115, 125, 168);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 8px;
+  margin: 15px auto;
+}
 .form {
-    margin:auto;
-    width: 60%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+  margin: auto;
+  width: 60%;
+  max-width: 600px;
+  font-size: 14px;
 }
 .form fieldset {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(242, 250, 216);
-    margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(214, 226, 177);
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 15px;
 }
 .form fieldset > * {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form fieldset legend {
-    background-color: rgb(255, 202, 175);
-    font-size: larger;
+  color: rgb(243, 176, 142);
+  font-size: x-large;
 }
 
-fieldset.button-container{
-    background-color: transparent;
-    border: none;
-    padding: 0;
+input[type="text"] {
+  margin-left: 5px;
+}
+
+fieldset.button-container {
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 #rating-input {
-    width: 200px;
+  width: 200px;
 }
 
 #date-input {
-    width: fit-content;
+  width: fit-content;
 }
 
 .button {
-    border-style: none;
-    margin-right: 10px;
-    width: fit-content;
-    border-radius: 10px;
+  border-style: none;
+  margin-right: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+}
+.button:hover {
+  text-decoration: rgb(214, 226, 177) dashed underline overline 5px;
 }
 
-.button.small-btn{
-padding: 5px 15px;
-background-color: rgb(255, 202, 175);
+.button.small-btn {
+  padding: 20px;
+  background-color: rgb(115, 125, 168);
 }
 
-.button.big-btn{
-  padding: 20px 10px;
-  background-color: rgb(198, 214, 146);  
+.button.big-btn {
+  padding: 10px;
+  background-color: rgb(243, 176, 142);
 }
